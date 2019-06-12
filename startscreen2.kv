@@ -1,0 +1,77 @@
+
+<Tela2>
+    BoxLayout:
+        orientation:'vertical'
+        spacing:1
+
+        AnchorLayout:
+            id:search_zone
+
+            size_hint_y:0.2
+            anchor_x:'center'
+            anchor_y:'center'
+            
+            #Cor na região de pesquisa...
+            canvas.before:
+                Color:
+                    rgba:0,0,1,1
+            
+                Rectangle:
+                    size:self.size
+                    pos:self.pos
+            
+            #Barra de pesquisa
+            BoxLayout:
+                orientation:'horizontal'
+                size_hint_y:0.4
+                size_hint_x:0.9
+                height:search_icon.width
+                
+    
+                TextInput:
+                    text:'O quê lhe falta?'
+                    size_hint_x:0.8
+                    multiline:False
+                    font_size:0.6*self.height
+                    
+    
+                ColorImage:
+                    id:search_icon
+                    source: 'search.png'
+                    mipmap:True
+            
+                    size_hint_x:0.2
+                    background_color:1,0,0,1
+           
+        #parte inferior (excluindo-se a região de pesquisa)         
+        BoxLayout:
+            orientation:'horizontal'
+            size_hint_y:0.8
+            spacing:1
+
+            AnchorLayout:
+                size_hint_x:0.1
+                anchor_x:'center'
+                anchor_y:'center'
+
+                ColorImage:
+                    source:'left.png'
+                    mipmap:True
+                    size_hint_y:0.38
+                    background_color:1,1,0,1
+
+            ColorLabel:
+                size_hint_x:0.8
+                text:'horizontal'
+                background_color:0,1,0,1
+
+            AnchorLayout:
+                size_hint_x:0.1
+                anchor_x:'center'
+                anchor_y:'center'
+                
+                ColorImage:
+                    source:'right.png'
+                    mipmap:True
+                    size_hint_y:0.38
+                    background_color:1,1,0,1

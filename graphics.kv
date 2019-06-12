@@ -1,0 +1,46 @@
+
+
+#Define uma cor de fundo para todo objeto do tipo Widget
+#Retângulo
+<RectBackground@Widget>
+    background_color:1, 1, 1, 1
+    canvas.before:
+        Color:
+            rgba:root.background_color
+            
+        Rectangle:
+            size:self.size
+            pos:self.pos
+            
+#Retangulo com vertices arredondados
+<RoundBackground@Widget>
+    background_color:1, 1, 1, 1
+    segments:10
+    radius:[(10.0, 10.0), (10.0, 10.0), (10.0, 10.0), (10.0, 10.0)]
+    
+    canvas.before:
+        Color:
+            rgba:root.background_color
+            
+        RoundedRectangle:
+            size:self.size
+            pos:self.pos
+
+            segments:root.segments
+            radius:root.radius
+
+                
+#-------------------------------------Widgets com background -  personalizados
+<ColorLabel@Label+RectBackground>
+    background_color: 0, 0, 0, 0
+
+<RColorLabel@Label+RoundBackground>
+    background_color: 0, 0, 0, 0
+    
+<ColorImage@Image+RectBackground>
+    background_color: 0, 0, 0, 0
+
+<RColorImage@Image+RoundBackground>
+    background_color: 0, 0, 0, 0   
+
+      
