@@ -1,6 +1,6 @@
 # CONTROLE DE ESTOQUE (What2buy)
 
-Software utilizado para criação de lista de compras, adicinoando os preços e quantidades para seus itens. Depois de adicionar alguns itens, o usuário poderá marcá-los como concluídos.
+Software utilizado para criação de lista de compras, adicionando os preços e quantidades para seus itens. Depois de adicionar alguns itens, o usuário poderá marcá-los como concluídos.
 
 ## Pré-requisitos para instalação do aplicativo
 
