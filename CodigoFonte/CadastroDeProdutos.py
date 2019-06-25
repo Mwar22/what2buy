@@ -178,6 +178,7 @@ class Main:
                 self.__es.cadastrar(Produto(self.__es.getCounter(), nome, quantia, marca, custo))
                 break
 
+                
 m = Main()
 m.Start()
             
