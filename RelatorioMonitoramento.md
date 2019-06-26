@@ -19,10 +19,21 @@ Conversão em apk                    |        23/06       |       4 horas
 
 
 
-
-
 ### Problemas de execução do projeto 
 
   Devido à falta de conhecimento por parte dos desenvolvedores, prazos curtos, falta de gerenciamento e 
-  mudança dos artefatos o projeto em questão ficou inviável. Assim tendo que começar do zero,
-  desconsiderando o código anterior, tal como o planejamento.
+  mudança dos artefatos o projeto em questão ficou inviável. Assim tendo que começar do zero, desconsiderando o código anterior.
+  
+### Novas Metas Estabelecidas
+  
+  Objetivo                            |  Data de execução  |    Quantidade de horas   | Responsável pela tarefa
+--------------------------------------|--------------------|--------------------------|------------------------
+Modificação do Plano de Projeto       |        23/06       |       4 horas            | Paula Fabiana
+Criação da estoria 6                  |        23/06       |       2 horas            | Paula Fabiana
+Modificação, atualização da estoria 6 |  24/06 -  25/06    |      12 horas            | Lucas de Jesus
+Modificação, atualização da estoria 6 |       25/06        |       4 horas            |  Miguel 
+
+
+
+  
+
