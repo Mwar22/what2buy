@@ -18,11 +18,11 @@ Construção interface gráfica        |  21/06 -  23/06    |      12 horas
 Conversão em apk                    |        23/06       |       4 horas
 
 
+
 ### Problemas de execução do projeto 
 
   Devido à falta de conhecimento por parte dos desenvolvedores, prazos curtos, falta de gerenciamento e 
-  mudança dos artefatos o projeto em questão ficou inviável. Assim tendo que começar do zero,
-  desconsiderando o código anterior.
+  mudança dos artefatos o projeto em questão ficou inviável. Assim tendo que começar do zero, desconsiderando o código anterior.
   
 ### Novas Metas Estabelecidas
   
