@@ -26,11 +26,13 @@ Conversão em apk                    |        23/06       |       4 horas
   
 ### Novas Metas Estabelecidas
   
-  Objetivo                            |  Data de execução  |    Quantidade de horas 
---------------------------------------|--------------------|------------------------
-Modificação do Plano de Projeto       |        23/06       |       4 horas
-Criação da estoria 6                  |        23/06       |       2 horas
-Modificação, atualização da estoria 6 |  24/06 -  25/06    |      12 horas
+  Objetivo                            |  Data de execução  |    Quantidade de horas   | Responsável pela tarefa
+--------------------------------------|--------------------|--------------------------|------------------------
+Modificação do Plano de Projeto       |        23/06       |       4 horas            | Paula Fabiana
+Criação da estoria 6                  |        23/06       |       2 horas            | Paula Fabiana
+Modificação, atualização da estoria 6 |  24/06 -  25/06    |      12 horas            | Lucas de Jesus
+Modificação, atualização da estoria 6 |       25/06        |       4 horas            |  Miguel 
+
 
 
   
